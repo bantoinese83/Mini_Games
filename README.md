@@ -9,6 +9,7 @@ This project is a collection of classic games implemented in Python. The games i
 5. Slots
 6. Solitaire
 7. Connect Four
+8. Craps
 
 ## Getting Started
 
@@ -26,6 +27,7 @@ Please select a game to play:
 5. Slots
 6. Solitaire
 7. Connect Four
+8. Craps
 
 Enter the number of the game you want to play: 
 

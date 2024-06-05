@@ -5,7 +5,7 @@ from prompt_toolkit.completion import WordCompleter
 from prompt_toolkit.history import InMemoryHistory
 from tqdm import tqdm
 
-from games import blackjack, solitare, hangman, mancala, wordsearch, slots, connect4
+from games import blackjack, solitare, hangman, mancala, wordsearch, slots, connect4, craps
 
 # CLI Menu options for the games available.
 # The keys are the options the user can select,
@@ -19,6 +19,7 @@ GAMES = {
     "5": slots.play,
     "6": solitare.play,
     "7": connect4.play,
+    "8": craps.play,
 }
 
 # Game names for displaying in the menu
@@ -30,6 +31,7 @@ GAME_NAMES = {
     "5": "Slots",
     "6": "Solitaire",
     "7": "Connect Four",
+    "8": "Craps",
 }
 
 
